@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=MuseoModerno:wght@300;400&family=Quicksand:wght@500;600;700&family=Ubuntu:wght@700&display=swap');
+body{
+    background-color: #99DBF5;
+}
+.header{
+padding-top: 0%;
+    /* background-color:  #A7ECEE; */
+}
+h1{
+    padding-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    
+    
+}
+h2{
+    padding-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.addName {
+    margin-left: 30%;
+    width: 40%;
+    font-size: 20px;
+    padding: 15px 50px 15px;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+    background-color: #eee;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    margin-bottom: 4%;
+  } 
+  #addName-btn {
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    font-size: 21px;
+    background: #5295af;
+    padding: 5px 20px 5px 12px;
+    /* border: solid #000000 2px; */
+    text-decoration: none;
+    width: 35%;
+     margin-left: 30.8%; 
+  }
+  #addName-btn:hover {
+    opacity: 0.75;
+    cursor: pointer;
+  }
+  
+  ::placeholder {
+    color: black;
+    opacity: 0.65;
+    font-family: "Quicksand", sans-serif;
+  }
+  .middle{
+    padding-top: 4%;
+    align-items: center;
+  }
+  .middle1{
+    
+    align-items: center;
+    margin-left: 5.5%;
+  }
+  @media only screen and (max-width: 700px) {
+    .middle1 {
+      /* background-color: red; */
+      margin-left: 12.5%;
+    }
+    .middle0{
+        width: 112%;
+        margin-left: -6%;
+  }
+}
+footer {
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+  
+    font-family: "Quicksand", sans-serif;
+  }

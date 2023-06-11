@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=MuseoModerno:wght@300;400&family=Quicksand:wght@500;600;700&family=Ubuntu:wght@700&display=swap');
+.header{
+    text-align: center;
+    background-color: #99DBF5;
+    margin-right: 0%;
+}
+
+h1{
+    padding-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+h2{
+    padding-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img1{
+    padding: 5%;
+    background-color: #E8A9A9;
+}
+.img2{
+    padding: 5%;
+    background-color: #E8A9A9;
+}
+
+.userInput{
+    text-align: center;
+    padding-top: 1%;
+    
+}
+.compInput{
+    text-align: center;
+    padding-top: 1%;
+}
+
+p{
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.bottom-container{
+    background-color: #99DBF5;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    justify-content: center;
+    width: 100%;
+ }
+ .choiceBtn{
+    margin: 30px;
+    padding: 1%;
+    width: 100%;
+    margin-left: 4.5%;
+    
+    
+ }
+ .choiceBtn:hover{
+   background-color: #94ebfc;
+ }
+ .userChoiceBtn{
+     display: flex;
+    position: absolute; 
+    justify-content: center;
+    width: 100%; 
+
+ }
+ .Rock{
+    width: 90%;
+    border-radius: 20px;
+    border-radius: px;
+    background-color: #99DBF5;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    
+ }
+ .Paper{
+     width: 90%;
+    border-radius: 20px;
+    background-color: #99DBF5;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 150%;
+ }
+ .Scissors{
+     width: 90%;
+     border-radius: 20px;
+    background-color: #99DBF5;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 150%;
+ } 
+ .muteToggle {
+    display: flex;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    background-color: #9AC5F4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 5%;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+  }
+  @media only screen and (max-width: 600px) {
+    .muteToggle{
+        width:  24%;
+        top: 25%;
+    }
+  }

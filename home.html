@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rocky </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Rock , Paper , Scissors</h1>
+        <h2>Test Your Luck</h2> 
+    </header>
+    <div class="row">
+        <div class=" col-lg-6 userInput">
+<p id="imageName">User</p>
+            <img id="img21" class="img1 rounded mx-auto d-block" src="images/cartoon/2.png" alt="">
+            <p id="userScore"> Userscore : 0 </p>
+        </div>
+
+        <div class=" col-lg-6 compInput">
+
+            <p>Comp</p>
+            <img id="img22" class="img2 rounded mx-auto d-block" src="images/cartoon/2c.png" alt="">
+
+            <p id="compScore"> Compscore : 0</p>
+        </div>
+    </div>
+
+    <!-- <div class="row">
+    <div>
+
+    </div> -->
+
+    </div>
+    <div class="bottom">
+        <button id="choiceRock" class="Rock choiceBtn col-lg-3" onclick="Rock()">Rock</button>
+        <button id="choicePaper" class="Paper choiceBtn  col-lg-3" onclick="Paper()">Paper</button>
+        <button id="choiceScissors" class="Scissors choiceBtn col-lg-3" onclick="Scissors()">Scissors</button>
+        <button type="button" class="muteToggle" id="muter" onclick="resetButton()">Reset</button>
+    </div>
+<script>
+   var username=  localStorage.getItem('userName');
+    document.querySelector("h2").innerHTML="Test Your Luck "+username;
+    document.querySelector("#imageName").innerHTML=username;
+
+  
+</script>
+    <script src="script.js"></script>
+</body>
+
+</html>

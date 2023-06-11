@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rocky</title>
+    <link rel="icon" href="favicon.ico?v=2">
+   
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="homeTitle">Rock , Paper , Scissors</h1>
+        <h2>Enter the Name of Player</h2>
+
+    </header>
+    <div class="middle">
+        <div class="middle0">
+            <input class="addName" type="text" id="addName-1" placeholder="Player Name">
+        </div>
+        <div class="middle1">
+            <input class="addName" id="addName-btn" type="submit" value="Submit " onclick="goToMain()">
+        </div>
+    </div>
+
+    <footer>
+
+        © www 🎲 Mark Digital 🎲 com <br>
+        version 1.0
+    </footer>
+
+    <script>
+        var userName1 = document.getElementById("addName-1");
+        var submitBtn = document.getElementById("addName-btn");
+
+        submitBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            userName1Value = userName1.value;
+            localStorage.setItem('userName', userName1Value);
+        })
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
